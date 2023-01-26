@@ -34,7 +34,7 @@ alter table Employee add foreign key (restaurant_id) references Restaurant(resta
 /*PARA ORDERS*/
 alter table Orders add (employee_id int not null);
 alter table Orders add (order_date date not null);
-alter table Orders add (order_price numeric(5,2) not null);
+alter table Orders add (order_price numeric(4,2) not null);
 alter table Orders add foreign key (employee_id) references Employee (employee_id);
 
 
