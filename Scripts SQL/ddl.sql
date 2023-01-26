@@ -5,6 +5,9 @@ create database Assi_04_06;
 use Assi_04_06;
 
 /*CREAMOS LAS TABLAS CON LAS PRIMARYS KEYS*/
+
+/* Para employee_id, preferimos usar el DNI del empleado, además de dar por hecho que todos los empleados son de nacionalidad española*/
+
 create table Employee (
     employee_id int not null,
     primary key (employee_id)
@@ -40,11 +43,13 @@ alter table Orders add foreign key (employee_id) references Employee (employee_i
 
 
 /*PARA RESTAURANT*/
-alter table Restaurant add (order_id int not null);
-alter table Restaurant add (direction varchar(20) not null);
+/*alter table Restaurant add (order_id int not null);*/
+
+alter table Restaurant add (direction varchar(100) not null);
 alter table Restaurant add (postal_code int not null);
 alter table Restaurant add (total_employees int not null);
-alter table Restaurant add foreign key (order_id) references Orders (order_id);
+
+/*alter table Restaurant add foreign key (order_id) references Orders (order_id);*/
 
 
 /*PARA COMPROBAR QUE TODO SE HA CREADO CORRECTAMENTE, EJECUTAREMOS 2 COMANDOS EN TOTAL:*/
