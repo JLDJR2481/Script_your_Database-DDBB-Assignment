@@ -50,6 +50,8 @@ This scripts collects the commands that are necesary for the creation of the Dat
 
 - Creating the others attributes and foreigns keys:
 
+- Checking the creation of tables and attributes:
+
   - Describing Restaurant:
 
   - Describing Employee:
@@ -60,7 +62,7 @@ This scripts collects the commands that are necesary for the creation of the Dat
 
 This script collects the commands used for inserting data in all our Database tables.
 
-The output after all scripts, and for checking must be:
+The output after all scripts, and after checking must be:
 
 - Restaurant Table:
 
@@ -70,7 +72,7 @@ The output after all scripts, and for checking must be:
 
 ### _queries.sql_
 
-This script collects some basics and advanced queries to interact with the database. We create 5 exercices. The objective is to equals your output with the solution output without looking at the queries.sql script. If you struggle to much, you can look ;)
+This script collects some basics and advanced queries to interact with the database. We create 5 exercices. The objective is to equals your output with the solution output without looking at the queries.sql script. If you struggle too much, you can look ;)
 
 #### **Exercice 1**
 
@@ -89,6 +91,8 @@ Output:
 #### **Exercice 3**
 
 Show the full name, the direction, the order id and the order date where the restaurant id = 1 and the employee id must be equals to the employee_id ubicated in Orders
+
+The output is:
 
 #### **Exercice 4**
 
@@ -115,3 +119,5 @@ This script will be used to delete all exististing data on the tables. If it's p
 ### _drop.sql_
 
 To drop the DataBase, we use this script.
+
+Output:
