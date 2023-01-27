@@ -1,3 +1,2 @@
-/*PARA REALIZAR UN DROP Y BORRAR POR COMPLETO DE NUESTRO SERVIDOR LA BASE DE DATOS, USAMOS:*/
-
+/*To make a drop of all DATABASE, we use:*/
 drop database Assi_04_06;

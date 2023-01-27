@@ -1,12 +1,12 @@
-/*Insert data*/
+/*INSERTING DATA TO QUERY*/
 
-/*Primero para Restaurant*/
+/*First, for Restaurant table*/
 
 insert into Restaurant values (1,'Calle De Las Rosas, Galicia','07540',5);
 insert into Restaurant values (2,'Calle Maria Del Carmen, Sevilla','07901',3);
 insert into Restaurant values (3,'Calle Paraiso, Mallorca','07520',2);
 
-/*Despues para Employee*/
+/*Later, for Employee table*/
 insert into Employee values (43255346,'Alex Garcia Jimenez','1100','','657623658',1);
 
 insert into Employee values (34242565,'Maria Gonzalez Mesa','1150','mariagnz@gmail.com','697436789',2);
@@ -27,7 +27,7 @@ insert into Employee values (65756753,'Adrian Piedra Ortega','1270','piedraadri7
 
 insert into Employee values (24354536,'Isaac Perez Viejo','1350','','662345345',1);
 
-/*Por ultimo, para Orders*/
+/*lAST ONE, INSERTING VALUES FOR Orders*/
 insert into Orders values (430,43255346,'2022-12-12',43.10);
 
 insert into Orders values (2390,34242565,'2022-11-04',75.21);
@@ -47,3 +47,12 @@ insert into Orders values (4094,54373354,'2022-06-07',21.20);
 insert into Orders values (3284,65756753,'2022-06-21',53.00);
 
 insert into Orders values (3452,24354536,'2022-03-29',22.22);
+
+
+/*To check that all data is correctly inserted, we use the following queries;*/
+
+select * from Employee;
+
+select * from Restaurant;
+
+select * from Orders;

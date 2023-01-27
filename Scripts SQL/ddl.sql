@@ -1,12 +1,12 @@
-/*CREAMOS LA BASE DE DATOS*/
+/*CREATE THE DATABASE*/
 create database Assi_04_06;
 
-/* USAMOS ESTE COMANDO PARA EMPEZAR A TRABAJAR CON LA BASE DE DATOS*/
+/* WORKING WITH DATABASE*/
 use Assi_04_06;
 
-/*CREAMOS LAS TABLAS CON LAS PRIMARYS KEYS*/
+/*CREATING TABLES WITH THEIR PRIMARYS KEYS*/
 
-/* Para employee_id, preferimos usar el DNI del empleado, además de dar por hecho que todos los empleados son de nacionalidad española*/
+/*For employee_id, we prefer to use the employee's DNI. We also know that all employees are spanish citizen*/
 
 create table Employee (
     employee_id int not null,
@@ -23,9 +23,9 @@ create table Restaurant (
     primary key (restaurant_id)
 );
 
-/*AÑADIMOS EL RESTO DE ATRIBUTOS A LAS TABLAS Y LAS FOREIGNS KEYS*/
+/*ADDING REST OF ATTRIBUTES AND FOREIGNS KEYS*/
 
-/*PARA EMPLOYEE*/
+/*FOR Employee*/
 alter table Employee add (full_name varchar(35) not null);
 alter table Employee add (salary int not null);
 alter table Employee add (email varchar(100));
@@ -34,7 +34,7 @@ alter table Employee add (restaurant_id int not null);
 alter table Employee add foreign key (restaurant_id) references Restaurant(restaurant_id);
 
 
-/*PARA ORDERS*/
+/*FOR Orders*/
 alter table Orders add (employee_id int not null);
 alter table Orders add (order_date date not null);
 alter table Orders add (order_price numeric(4,2) not null);
@@ -42,18 +42,18 @@ alter table Orders add foreign key (employee_id) references Employee (employee_i
 
 
 
-/*PARA RESTAURANT*/
+/*FOR Restaurant*/
 alter table Restaurant add (direction varchar(100) not null);
 alter table Restaurant add (postal_code int not null);
 alter table Restaurant add (total_employees int not null);
 
 
-/*PARA COMPROBAR QUE TODO SE HA CREADO CORRECTAMENTE, EJECUTAREMOS 2 COMANDOS EN TOTAL:*/
+/*Checking the correct creation of tables, attributes and keys. We use 2 commands:*/
 
-/*COMANDO 1. PARA COMPROBAR LA CORRECTA CREACION DE LAS TABLAS*/
+/*COMMAND 1: CHECKING CREATION OF TABLES*/
 show tables;
 
-/*COMANDO 2. PARA COMPROBAR LOS ATRIBUTOS DE LAS TABLAS Y LAS FOREIGN KEYS*/
+/*COMMAND 2: CHECKING CORRECT CREATION OF ATTRIBUTES AND KEYS*/
 describe Employee;
 
 describe Orders;
