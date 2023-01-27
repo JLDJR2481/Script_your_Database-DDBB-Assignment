@@ -149,6 +149,7 @@ Outputs:
 Deleting Constraints:
 
 - Constraint from Orders:
+
 ![Contraint from Orders](https://user-images.githubusercontent.com/115024410/215146601-38aa8b9e-95fa-4457-9d6e-189a220f8d25.png)
 
 - Constraint from Employee:
