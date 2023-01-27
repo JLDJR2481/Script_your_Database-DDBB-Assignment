@@ -39,41 +39,41 @@ This scripts collects the commands that are necesary for the creation of the Dat
 - ![Create Database](https://user-images.githubusercontent.com/115024410/215132880-b5071beb-e624-41fb-bc76-823f64144fb4.png)
 
 - Using database:
-- ![Use Database](https://user-images.githubusercontent.com/115024410/215133053-f8fb8d09-a7ab-488d-b54d-4ae885b7dc5d.png)
+![Use Database](https://user-images.githubusercontent.com/115024410/215133053-f8fb8d09-a7ab-488d-b54d-4ae885b7dc5d.png)
 
 - Creating tables with primarys keys:
   - Restaurant table output with describe:
-  - ![Initial Restaurant](https://user-images.githubusercontent.com/115024410/215134290-967f3720-ce06-4c17-9ff4-74dbdbf61ead.png)
+![Initial Restaurant](https://user-images.githubusercontent.com/115024410/215134290-967f3720-ce06-4c17-9ff4-74dbdbf61ead.png)
 
   - Employee table output with describe:
-  - ![Initial Employee](https://user-images.githubusercontent.com/115024410/215133753-c582a96c-8514-4063-a941-5dd49b8ffd06.png)
+![Initial Employee](https://user-images.githubusercontent.com/115024410/215133753-c582a96c-8514-4063-a941-5dd49b8ffd06.png)
 
   - Orders table output with describe:
-  - ![Initial Orders](https://user-images.githubusercontent.com/115024410/215133954-972dea36-a48f-4843-a8f0-9699ab62d014.png)
+![Initial Orders](https://user-images.githubusercontent.com/115024410/215133954-972dea36-a48f-4843-a8f0-9699ab62d014.png)
 
 
 - Creating the others attributes and foreigns keys. Outputs after describe:
   - Describing Restaurant:
-  - ![Final Restaurant](https://user-images.githubusercontent.com/115024410/215135344-f6ff2f58-04f7-4115-a23c-40db1672fca8.png)
+![Final Restaurant](https://user-images.githubusercontent.com/115024410/215135344-f6ff2f58-04f7-4115-a23c-40db1672fca8.png)
 
   - Describing Employee:
-  - ![Final Employee](https://user-images.githubusercontent.com/115024410/215134909-c3ca2a30-c41a-42a3-b1c9-5b19f5f9f261.png)
+![Final Employee](https://user-images.githubusercontent.com/115024410/215134909-c3ca2a30-c41a-42a3-b1c9-5b19f5f9f261.png)
 
   - Describing Orders:
-  - ![Final Orders](https://user-images.githubusercontent.com/115024410/215135115-e2cdbc4f-1ba5-4fb3-9257-07eb0c1416eb.png)
+![Final Orders](https://user-images.githubusercontent.com/115024410/215135115-e2cdbc4f-1ba5-4fb3-9257-07eb0c1416eb.png)
 
 ### _dml.sql_
 This script collects the commands used for inserting data in all our Database tables.
 
 The output after all scripts, and after checking must be:
 - Restaurant Table:
-- ![Restaurant with values](https://user-images.githubusercontent.com/115024410/215136280-79ed873e-29c6-411d-9f2a-7370bdacc0d8.png)
+![Restaurant with values](https://user-images.githubusercontent.com/115024410/215136280-79ed873e-29c6-411d-9f2a-7370bdacc0d8.png)
 
 - Orders Table:
-- ![Orders with values](https://user-images.githubusercontent.com/115024410/215136373-c39d9332-c700-46f3-899b-570204cc0b04.png)
+![Orders with values](https://user-images.githubusercontent.com/115024410/215136373-c39d9332-c700-46f3-899b-570204cc0b04.png)
 
 - Employee Table:
-- ![Employee with values](https://user-images.githubusercontent.com/115024410/215136442-7f9612db-a3e6-4c2a-8f5d-9e3bc195ddfd.png)
+![Employee with values](https://user-images.githubusercontent.com/115024410/215136442-7f9612db-a3e6-4c2a-8f5d-9e3bc195ddfd.png)
 
 ### _queries.sql_
 
@@ -84,7 +84,7 @@ This script collects some basics and advanced queries to interact with the datab
 Show all data from the table Employee.
 
 - Output:
-- ![Output 1](https://user-images.githubusercontent.com/115024410/215136864-22430939-4290-46a5-816a-2861bdfb85dc.png)
+![Output 1](https://user-images.githubusercontent.com/115024410/215136864-22430939-4290-46a5-816a-2861bdfb85dc.png)
 
 #### **Exercice 2**
 Show the full name and the direction of the restaurant where they work.
